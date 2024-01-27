@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="index.html">Главная</a>
+  <a href="about.html">О нас</a>
+  <a href="services.html">Услуги</a>
+  <a href="clients.html">Клиенты</a>
+  <div id="themeSwitcher">
+    <p id="themeLabel">Светлая тема</p>
+    <label class="switch">
+      <input type="checkbox" id="themeButton">
+      <span class="slider round"></span>
+    </label>
+  </div>
+</div>
+
+<div id="main">
+  <div id="header">
+    <button id="menuButton" class="openbtn" onclick="toggleNav()">☰</button>  
+    <div class="logo-container"> <!-- Новый контейнер -->
+      <h1 class="logo">Life without books</h1>
+      <h2 id="pageTitle">Контакты</h2> <!-- Перемещено внутрь нового контейнера -->
+    </div>
+  </div>
+  <div id="content"> <!-- Добавлено -->
+    
+    <p>Мы всегда рады слышать от вас! Если у вас есть вопросы, предложения или отзывы, пожалуйста, свяжитесь с нами одним из следующих способов:</p>
+
+    <h2>Электронная почта</h2>
+    <p>Вы можете написать нам на электронную почту <a href="mailto:info@lifewithoutbooks.com">info@lifewithoutbooks.com</a>. Мы постараемся ответить вам как можно скорее.</p>
+
+    <h2>Телефон</h2>
+    <p>Вы можете позвонить нам по телефону <a href="tel:+71234567890">+7 123 456 7890</a>. Наша служба поддержки работает с понедельника по пятницу с 9:00 до 18:00.</p>
+
+    <h2>Адрес</h2>
+    <p>Вы также можете посетить нас по адресу:</p>
+    <address>
+      Life without books<br>
+      123 Book Street<br>
+      10100, Москва<br>
+      Россия
+    </address>
+
+    <p>Мы всегда рады видеть вас!</p>
+
+    <p>Пожалуйста, обратите внимание, что время ответа может варьироваться в зависимости от объема запросов. Мы ценим ваше терпение и стремимся обеспечить высокое качество обслуживания для каждого клиента.</p>
+  
+    <img src="1.png" alt="Книги" style="width: 150px; height: 100px;">
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html> 

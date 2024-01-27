@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="index.html">Главная</a>
+  <a href="about.html">О нас</a>
+  <a href="services.html">Услуги</a>
+  <a href="contacts.html">Контакты</a>
+  <div id="themeSwitcher">
+    <p id="themeLabel">Светлая тема</p>
+    <label class="switch">
+      <input type="checkbox" id="themeButton">
+      <span class="slider round"></span>
+    </label>
+  </div>
+</div>
+
+<div id="main">
+  <div id="header">
+    <button id="menuButton" class="openbtn" onclick="toggleNav()">☰</button>  
+    <div class="logo-container"> <!-- Новый контейнер -->
+      <h1 class="logo">Life without books</h1>
+      <h2 id="pageTitle">Клиенты</h2> <!-- Перемещено внутрь нового контейнера -->
+    </div>
+  </div>
+  <div id="content"> <!-- Добавлено -->
+    
+    <p>В "Life without books" мы гордимся тем, что обслуживаем широкий круг клиентов, включая студентов, профессионалов, пенсионеров и семьи. Вот некоторые отзывы наших довольных клиентов:</p>
+
+    <h2>Анна, студентка</h2>
+    <p>"Я обожаю "Life without books"! Они всегда предлагают интересные обзоры и рецензии на книги, которые помогают мне выбрать, что читать дальше."</p>
+
+    <h2>Михаил, преподаватель</h2>
+    <p>""Life without books" - это отличный ресурс для нахождения новых книг для моих учеников. Их интервью с авторами также очень проницательны."</p>
+
+    <h2>Елена, пенсионерка</h2>
+    <p>"Я люблю участвовать в книжных клубах "Life without books". Это замечательный способ обсудить книгу с другими любителями чтения."</p>
+
+    <h2>Семья Ивановых</h2>
+    <p>"Мы обожаем "Life without books"! Они предлагают отличные рекомендации книг для всей нашей семьи."</p>
+
+    <p>Мы ценим каждого нашего клиента и стремимся предоставить лучший сервис. Если вы хотите поделиться своим опытом использования наших услуг, пожалуйста, свяжитесь с нами. Мы всегда рады получить отзывы!</p>
+  
+    <img src="1.png" alt="Книги" style="width: 150px; height: 100px;">
+  
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html> 
